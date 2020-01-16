@@ -1,8 +1,19 @@
 import React from 'react';
 
+import './global.css'
+import './App.css'
+
 function App() {
   return (
-    <h1>ola</h1>
+    <div id="app">
+      <aside>
+        <strong>Cadastrar</strong>
+        <form>
+          <label htmlFor="">Usuário do Github</label>
+        </form>
+      </aside>
+      <main></main>
+    </div>
   );
 }
 
